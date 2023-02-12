@@ -24,7 +24,7 @@ for (int j = 0; j < size; j++)
     if (ArrayStrings[j].Length <= len)
     {
         arrayFinal[poz] = ArrayStrings[j];
-       Console.Write(arrayFinal[pos] + " " );//поэлементный вывод массива
+       Console.Write(arrayFinal[poz] + " " );//поэлементный вывод массива
         poz++;
     }
 }
